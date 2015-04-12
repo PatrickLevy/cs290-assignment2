@@ -1,0 +1,19 @@
+table {border-collapse: collapse; border: solid;}
+th {border-collapse: collapse; border: solid black;}
+td {border-collapse: collapse; border: solid black;}
+
+tbody td:nth-child(1){font-style: italic;}
+tbody td:nth-child(2){color: red;}
+tbody td:nth-child(4){color: blue;}
+
+tbody tr:nth-child(even){background-color: lightblue;}
+tbody tr:nth-child(odd){background-color: lightgreen;}
+
+dt:hover + dd{background: purple;}
+
+div.outer-content {background-color: pink; margin-top: 20px; width: 75%;}
+div.inner-content {background-color: blue; width: 75%; margin: auto; text-align: center}
+
+form {border: solid black;}
+
+img{float:left;}
